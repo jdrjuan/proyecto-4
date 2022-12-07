@@ -39,6 +39,11 @@ body {
     text-decoration: underline;
 }
 
+.main-footer {
+    background-color: #222;
+    color: #e7e7e7;
+}
+
 @media (min-width: 768px) {
     .main-nav__list {
         flex-direction: row;
