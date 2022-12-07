@@ -3,3 +3,33 @@ body {
     color: #048;
 }
 
+.main-nav {
+    background: rgb(10, 74, 117);
+}
+
+.main-nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.main-nav__item {
+
+}
+
+.main-nav__link {
+    color: #f5f5f5;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.main-nav__link:hover {
+    color: #b5d5f5;
+    text-decoration: underline;
+}
+
